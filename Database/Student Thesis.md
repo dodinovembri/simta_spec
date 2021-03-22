@@ -14,6 +14,8 @@ CREATE TABLE student_thesis (
     total_sks_now INT NULL,
     total_sks_transkrip INT NULL,
     is_kkt_file_set TINYINT NULL,
+    thesis_topic_id VARCHAR(36) NULL,
+    title_of_thesis TEXT NULL,
 	PRIMARY KEY (id)
 )
 ```
@@ -22,3 +24,6 @@ CREATE TABLE student_thesis (
 | ---- | ---- |
 | 1 | KKT File Uploaded |
 | 2 | KKT File Rejected |
+| 3 | KKT File Reuploaded |
+| 4 | KKT File Accepted |
+| 5 | Submission of TopicS |

@@ -9,6 +9,7 @@ CREATE TABLE student_thesis_history (
 	creator_id VARCHAR(36) NULL,
 	updater_id VARCHAR(36) NULL,
 	lecturer_id VARCHAR(36) NULL,
+	student_thesis_id VARCHAR(36) NULL,
 	college_student_id VARCHAR(36) NULL,
     history_code TINYINT NULL,
     total_sks_now INT NULL,
