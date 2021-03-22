@@ -1,6 +1,6 @@
-# Student thesis
+# Student thesis history
 ```sql
-CREATE TABLE student_thesis (
+CREATE TABLE student_thesis_history (
 	id VARCHAR(36) NOT NULL,
 	status TINYINT NOT NULL,
 	sort INT NULL,
@@ -10,10 +10,10 @@ CREATE TABLE student_thesis (
 	updater_id VARCHAR(36) NULL,
 	lecturer_id VARCHAR(36) NULL,
 	college_student_id VARCHAR(36) NULL,
-    thesis_status_code TINYINT NULL,
+    history_code TINYINT NULL,
     total_sks_now INT NULL,
     total_sks_transkrip INT NULL,
-    is_kkt_file_set TINYINT NULL,
+    description VARCHAR(36) NULL,
 	PRIMARY KEY (id)
 )
 ```
