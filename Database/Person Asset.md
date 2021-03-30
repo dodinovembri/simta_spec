@@ -18,4 +18,11 @@ CREATE TABLE person_asset (
 	PRIMARY KEY (id)
 )
 ```
-
+## Information Type Code
+| Code | Name |
+| ---- | ---- |
+| 1 | KRS File |
+| 2 | KP File |
+| 3 | Transkrip Nilai |
+| 4 | Consultation File |
+| 5 | Consultation File for Extend Proposal Seminar |

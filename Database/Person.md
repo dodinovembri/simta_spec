@@ -18,6 +18,9 @@ CREATE TABLE person (
 	birth_date DATETIME NULL,
 	gender_code INT NULL,
     person_type_code INT NULL,
+    academic_lecturer_nip VARCHAR(40) NULL,
+    year_of_education_id VARCHAR(36) NULL,
+    majors_id VARCHAR(36) NULL,
 	PRIMARY KEY (id)
 )
 ```

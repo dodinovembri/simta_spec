@@ -23,3 +23,4 @@ CREATE TABLE student_thesis_history (
 | ---- | ---- |
 | 1 | KKT File Uploaded |
 | 2 | KKT File Rejected |
+| 7 | Topic Rejected |

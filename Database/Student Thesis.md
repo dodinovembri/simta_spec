@@ -25,5 +25,9 @@ CREATE TABLE student_thesis (
 | 1 | KKT File Uploaded |
 | 2 | KKT File Rejected |
 | 3 | KKT File Reuploaded |
-| 4 | KKT File Accepted |
-| 5 | Submission of TopicS |
+| 4 | KKT File Accepted|
+| 5 | Submission of Topic |
+| 6 | Topic Accepted |
+| 7 | Topic Rejected |
+| 8 | Extend Proposal Seminar Uploaded |
+| 9 | Extend Proposal Seminar Uploaded Accepted |
