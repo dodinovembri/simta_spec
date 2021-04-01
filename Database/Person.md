@@ -21,6 +21,8 @@ CREATE TABLE person (
     academic_lecturer_nip VARCHAR(40) NULL,
     year_of_education_id VARCHAR(36) NULL,
     majors_id VARCHAR(36) NULL,
+    is_registered_user TINYINT NULL,
+    address TEXT NULL,
 	PRIMARY KEY (id)
 )
 ```
