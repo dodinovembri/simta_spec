@@ -16,7 +16,7 @@ CREATE TABLE student_thesis (
     is_kkt_file_set TINYINT NULL,
     thesis_topic_id VARCHAR(36) NULL,
     title_of_thesis TEXT NULL,
-    date_agree DATETIME NULL,
+    date_agree DATE NULL,
 	PRIMARY KEY (id)
 )
 ```
@@ -33,3 +33,6 @@ CREATE TABLE student_thesis (
 | 9 | Extend Proposal Seminar Uploaded Accepted |
 | 10 | Extend Proposal Seminar Uploaded Rejected |
 | 11 | Register for Proposal Seminar |
+| 12 | Proposal Seminar Requirement Rejected |
+| 13 | Proposal Seminar Requirement Accepted |
+| 14 | Examiner already set |
